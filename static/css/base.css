@@ -1,13 +1,13 @@
 html {
     height: 100%;
+    background-color: #5cdb95;
 }
 
 body {
-    /*background: url('/media/background_picture.png') no-repeat center center fixed;*/
-    
+    background: url('/media/background_picture2.png') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #5cdb95;
+    background-color: #5cdb95;
     font-family: 'Roboto Slab';
     z-index: 1;
 }
@@ -24,11 +24,16 @@ body {
 /* Header */
 
 .bg-back {
-    background-color: #5cdb95;
+    background-color: #05386b;
+}
+
+#header-1 {
+    background: #8ee4af;
 }
 
 .logo-font {
     text-transform: uppercase;
+    color: #edf5e1;
 }
 
 .main-logo-link {
@@ -36,14 +41,13 @@ body {
 }
 
 .shop-now-button {
-    background: #5cdb95;
-    color: white;
+    background: #05386b;
+    color: #edf5e1;
     min-width: 260px;
 }
 
-.btn-black {
-    background: black;
-    color: #5cdb95;
+#header-color {
+    color: #05386b;
 }
 
 .shop-now-button:hover,
@@ -52,12 +56,12 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #5cdb95;
-    color: white;
+    background: #05386b;
+    color: #05386b;
 }
 
 .text-black {
-    color: #000 !important;
+    color: #edf5e1 !important;
 }
 
 .border-black {
