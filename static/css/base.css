@@ -40,6 +40,10 @@ body {
     width: fit-content;
 }
 
+#main-nav {
+    color: #05386b;
+}
+
 .shop-now-button {
     background: #05386b;
     color: #edf5e1;
