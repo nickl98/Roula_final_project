@@ -67,6 +67,12 @@ body {
 .border-black {
     border: 1px solid white !important;
 }
+/* Card Group */
+.card-group .card {
+    background-color: #edf5e1;
+    margin: 10px;
+}
+
 
 /* -------------------------------- Media Queries */
 
