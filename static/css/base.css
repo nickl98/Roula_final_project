@@ -71,6 +71,10 @@ body {
 .border-black {
     border: 1px solid white !important;
 }
+
+.bg-black {
+    background: #000 !important;
+}
 /* Card Group */
 .card-group .card {
     background-color: #edf5e1;
