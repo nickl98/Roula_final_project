@@ -4,14 +4,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5001340155",
-            "name": "Roula Original Bootcut Jeans",
-            "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
+            "name": "Single Time Donnation",
+            "description": "This is a single time donnation to the start-up Roula.",
             "has_sizes": true,
-            "price": 53.99,
-            "category": 6,
-            "rating": 4.6,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-            "image": "DP0709201205510679M.jpg"
+            "price": 5.00,
+            "category": 2,
+            "rating": 5.0,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/5_dollar_dono.png?raw=true",
+            "image": "5_dollar_dono.png"
         }
     },
     {
@@ -19,14 +19,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5001600425",
-            "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
-            "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
+            "name": "Single Time Donnation",
+            "description": "This is a single time donnation to the start-up Roula.",
             "has_sizes": true,
-            "price": 58.99,
-            "category": 4,
-            "rating": 4.6,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-            "image": "DP0113201617034987M.jpg"
+            "price": 50.00,
+            "category": 2,
+            "rating": 5.0,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/50_dollar_dono.png?raw=true",
+            "image": "50_dolla"
         }
     },
     {
