@@ -107,12 +107,13 @@ body {
 /* Search Icon */
 
 .fa-search {
-    color: #edf5e1
+    color: #edf5e1;
 }
 
 /* Hamburger Icon */
-.navbar-toggler-icon {
-    background-color: #8ee4af;
+.fa-bars {
+    color: #edf5e1;
+    border-color: #edf5e1;
 }
 
 .overlay {
