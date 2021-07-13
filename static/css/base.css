@@ -3,7 +3,7 @@ html {
     
 }
 #html_style {
-    background-color: #5cdb95;
+    background-color: #5db27f;
 }
 
 body {
@@ -78,16 +78,29 @@ body {
 /* Header */
 
 .bg-back {
-    background-color: #05386b;
+    background-color: #42629a;
 }
  #bottom-header {
-     background-color: #379683;
+     background-color: #42629a;
      margin-top: 15px;
      margin-bottom: 15px;
+     border-color: #edf5e1;
+    padding: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
 
  }
 #header-1 {
     background: #8ee4af;
+    padding-top: 15px;
+    border-color: #edf5e1;
+    padding: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
 .logo-font {
@@ -100,13 +113,14 @@ body {
 }
 
 #main-nav {
-    color: #05386b;
+    color: #42629a;
 }
 
 .shop-now-button .btn{
     background: #edf5e1;
     color: #edf5e1;
     min-width: 260px;
+    z-index: 1;
 }
 
 #header-color {
@@ -121,6 +135,10 @@ body {
 .btn-black:focus {
     background: #05386b;
     color: #05386b;
+}
+
+.li .nav-item:hover {
+    color:#05386b;
 }
 
 .text-black {
@@ -177,26 +195,36 @@ body {
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
+    .container {
+      max-width: 80%;
+    }
   }
-}
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-}
-
+  
+  /* fixed top navbar only on medium and up */
+  @media (min-width: 992px) {
+      .fixed-top-desktop-only {
+          position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+          z-index: 1030;
+      }
+  
+      .header-container {
+          padding-top: 164px;
+      }
+  }
+  
+  /* pad the top a bit when navbar is collapsed on mobile */
+  @media (max-width: 991px) {
+      .header-container {
+          padding-top: 116px;
+      }
+  
+      body {
+          height: calc(100vh - 116px);
+      }
+  }
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 375px) 
