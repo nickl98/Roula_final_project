@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'home',
     'products',
     'contact_form',
+    'locations',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
