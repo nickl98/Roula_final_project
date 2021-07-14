@@ -114,6 +114,7 @@ body {
 .logo-font {
     text-transform: uppercase;
     color: #edf5e1;
+    z-index: 33;
 }
 
 .main-logo-link {
@@ -222,7 +223,14 @@ body {
 	background: #42629a;
 	z-index: 0;
 }
-
+#overlay-products  {
+    height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.6);
+}
 .overlay2 {
 	height: 100%;
 	width: 100%;
