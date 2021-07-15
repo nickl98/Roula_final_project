@@ -30,10 +30,11 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Phany Packs</a>
-                <a href="" class="dropdown-item">Duffel Bags</a>
-                <a href="" class="dropdown-item">Electronics</a>
-                <a href="" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?category=phanny_pack" class="dropdown-item">Phany Packs</a>
+                <a href="{% url 'products' %}?category=duffel_bag" class="dropdown-item">Duffel Bags</a>
+                <a href="{% url 'products' %}?category=electronics" class="dropdown-item">Electronics</a>
+                <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=phanny_pack,duffel_bag,electronics,accessories" class="dropdown-item">All Accessories</a>
             </div>
         </li>
 
@@ -42,7 +43,7 @@
                 Donnations
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">One-Time-Donnation</a>
+                <a href="{% url 'products' %}?category=donation" class="dropdown-item">One-Time-Donnation</a>
             </div>
         </li>
     </ul>

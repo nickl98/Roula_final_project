@@ -33,15 +33,15 @@
         "pk": 3,
         "model": "products.product",
         "fields": {
-            "sku": "One Hundred Dollar Donnation",
-            "name": "This is a single time donnation to the start-up Roula.",
-            "description": "Add a 5-star resort feel to your bedroom with the elegant Matte Satin Square coverlet set, featuring modern embroidered squares and flanged trim.  square embroidered pattern flanged-edge trim fabric is washable for easy care 3-piece set includes: coverlet 2 shams Polyester coverlet with cotton fill; polyester shams. Washable. Imported. Full/Queen: coverlet is 92x96\" King: coverlet is 110x96\"",
+            "sku": "pp5001600555",
+            "name": "One Hundred Dollar Donnation",
+            "description": "This is a single time donnation to the start-up Roula.",
             "has_sizes": false,
-            "price": 205.99,
+            "price": 100.00,
             "category": 2,
             "rating": 4.7,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1230201417013175M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-            "image": "DP1230201417013175M.jpg"
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/100_dollar_dono.png?raw=true",
+            "image": "100_dollar_dono.png"
         }
     },
     {
@@ -49,14 +49,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5001890157",
-            "name": "Gibson Infinite Glaze 16-pc. Dinnerware Set",
-            "description": "An exhibition in contrast, this dinnerware sets simple, clean design is perfect for both everyday use and special occasions. durable stoneware construction microwave and oven safe service for 4 16-piece set includes: four 10\" dinner plates four 7\" dessert plates four 6\" bowls four 12-ounce mugs Stoneware. Dishwasher safe. Imported.",
-            "has_sizes": false,
-            "price": 169.99,
-            "category": 7,
-            "rating": 3.0,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0716201503423610M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-            "image": "DP0716201503423610M.jpg"
+            "name": "Short Sleeve Blue Roula t-shirt",
+            "description": "Funds from this shirt are going into a charity, we also plan on matching the sales!",
+            "has_sizes": true,
+            "price": 35.00,
+            "category": 6,
+            "rating": 4.0,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/blue_shirt.png?raw=true",
+            "image": "blue_shirt.png"
         }
     },
     {
@@ -64,14 +64,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002111605",
-            "name": "Simply Calphalon Enameled Cast Iron Panini Pan",
-            "description": "Durable enameled cast iron construction allows the panini pan to heat evenly, so you can whip up a meal with ease and complete confidence.  cooks with little to no oils or fats so every recipe is healthier nonstick interior for quick and easy clean-ups stainless steel knob on cover enameled cast iron heats evenly and consistently stove, broiler and oven safe Cast iron/stainless steel. Dishwasher safe. Imported. ",
+            "name": "Black Roula Water Bottle",
+            "description": "Durable enameled cast iron water bottle. It also comes with a ten year warenty",
             "has_sizes": false,
-            "price": 232.99,
-            "category": 7,
-            "rating": 5.0,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1115201210371197C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-            "image": "DP1115201210371197C.jpg"
+            "price": 19.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/black_bottle.png?raw=true",
+            "image": "black_bottle.png"
         }
     },
     {
@@ -79,7 +79,7 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002260206",
-            "name": "The Foundry Supply Co. Solid Pocket TeeBig & Tall",
+            "name": "BLack Roula Duffel Bag",
             "description": "Get a better basic tee in a size that truly fits with this pocket t-shirt from The Foundry Supply Co.  short-sleeve, crew-neck tee left chest pocket 100% cotton washable imported",
             "has_sizes": true,
             "price": 30.99,
@@ -128,7 +128,7 @@
             "description": "Protech sheets are like activewear for your bed! The same cutting edge technology that is used in today's sportswear is also used in these Protech Plus sheets to give you a better night's sleep. Breathable ultra-fine microfiber wicks away moisture, keeping your body cool throughout the night while a 4-way stretch component allows you comfort in movement. This stretching ability also helps while making the bed, fitting most premium size mattresses; you won't have to struggle to get the sheets to fit all the way around.  4-way stretch component allows you comfort in movement available in a variety of solid colors microfiber knit fits mattresses up to 19\" deep Set includes: fitted sheet flat sheet 2 pillowcases Polyester/spandex. Washable. Imported. Full: 54x75 Queen: 60x80 King: 78x80 Cal. King: 72x84",
             "has_sizes": false,
             "price": 169.99,
-            "category": 2,
+            "category": 3,
             "rating": 4.7,
             "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1020201517025390M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "DP1020201517025390M.jpg"
