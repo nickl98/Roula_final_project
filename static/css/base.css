@@ -261,8 +261,8 @@ body {
 	left: 0;
 	position: fixed;
 	background-color: 	rgb(245,245,245);
-    opacity: 0.5;
-    z-index: 0;
+    opacity: 0.2;
+    
 }
 .overlay2 {
 	height: 100%;
