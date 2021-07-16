@@ -124,6 +124,8 @@ body {
 
 #hr-color {
     color: #42629a;
+    height: 12px;
+    
 }
 
 #product-amt-text {
@@ -247,6 +249,11 @@ body {
 .fa-bars {
     color: #edf5e1;
     border-color: #edf5e1;
+}
+
+/* Shopping bag Css */
+#shopping-bag-text {
+    color: #42629a;
 }
 
 /* Content Body */
