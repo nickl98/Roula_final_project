@@ -79,14 +79,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002260206",
-            "name": "BLack Roula Duffel Bag",
-            "description": "Get a better basic tee in a size that truly fits with this pocket t-shirt from The Foundry Supply Co.  short-sleeve, crew-neck tee left chest pocket 100% cotton washable imported",
-            "has_sizes": true,
-            "price": 30.99,
-            "category": 9,
-            "rating": 4.7,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0624201520422666C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-            "image": "DP0624201520422666C.jpg"
+            "name": "Black Roula Addias Duffel Bag",
+            "description": "The Roula Duffel Bag in colabration with Addias, one of our most popular items. Perfect for travel and also sports. It fits 3 cubic feet of items as well!",
+            "has_sizes": false,
+            "price": 49.99,
+            "category": 8,
+            "rating": 5.0,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/black_duffle_bag.png?raw=true",
+            "image": "black_duffle_bag.png"
         }
     },
     {
@@ -94,14 +94,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002440521",
-            "name": "Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus",
-            "description": "Walk a little taller in our slimming straight-leg pants. flat front slim fit straight leg front fly with nylon zipper, hook and bar closure 32\" inseam polyester/rayon/spandex washable imported ",
+            "name": "Roula Charhart Sweatshirt",
+            "description": "This very popular sweatshirt is known to be one of the most comfortable sweatshirts around!",
             "has_sizes": true,
-            "price": 59.0,
+            "price": 39.99,
             "category": 4,
             "rating": 4.4,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-            "image": "DP0226201317034754M.jpg"
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/black_jacket.png?raw=true",
+            "image": "black_jacket.png"
         }
     },
     {
@@ -109,14 +109,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002601115",
-            "name": "Rachael Ray Ceramic Olive Oil Dispenser",
-            "description": "This olive oil dispenser is designed for storing extra virgin olive oil, so it's close at hand for drizzling on food.  24-ounce capacity cruet opaque bottle and non-porous glazed interior keep oil in the dark to avoid oxidation and preserve taste playful, contemporary design Stoneware. Dishwasher-safe. Imported.",
+            "name": "Custom Roula Mask",
+            "description": "Be covid safe with Roula's own custom mask!",
             "has_sizes": false,
-            "price": 36.99,
-            "category": 7,
+            "price": 5.99,
+            "category": 3,
             "rating": 4.5,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0926201317071162M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-            "image": "DP0926201317071162M.jpg"
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/black_mask.png?raw=true",
+            "image": "black_mask.png"
         }
     },
     {
@@ -124,14 +124,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002690715",
-            "name": "Protech Performance Sheet Set",
-            "description": "Protech sheets are like activewear for your bed! The same cutting edge technology that is used in today's sportswear is also used in these Protech Plus sheets to give you a better night's sleep. Breathable ultra-fine microfiber wicks away moisture, keeping your body cool throughout the night while a 4-way stretch component allows you comfort in movement. This stretching ability also helps while making the bed, fitting most premium size mattresses; you won't have to struggle to get the sheets to fit all the way around.  4-way stretch component allows you comfort in movement available in a variety of solid colors microfiber knit fits mattresses up to 19\" deep Set includes: fitted sheet flat sheet 2 pillowcases Polyester/spandex. Washable. Imported. Full: 54x75 Queen: 60x80 King: 78x80 Cal. King: 72x84",
-            "has_sizes": false,
-            "price": 169.99,
-            "category": 3,
+            "name": "Roula Champion Sweatpants",
+            "description": "Cool, slick, compfy sweatpants. Summer is almost done, fall weather is around the corner. Make sure you have a pair before they are sold out!",
+            "has_sizes": true,
+            "price": 24.99,
+            "category": 5,
             "rating": 4.7,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1020201517025390M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-            "image": "DP1020201517025390M.jpg"
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/black_sweat_pants.png?raw=true",
+            "image": "black_sweat_pants.png"
         }
     },
     {
@@ -139,14 +139,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002701115",
-            "name": "Reflections Set of 4 Microfiber Napkins",
-            "description": "Complete the look of your table setting with these easy-care microfiber napkins.  great for everyday use or entertaining liquid-resistant design helps protect against spills set of 4 Polyester.Each measures 19x19\". Washable. Imported.",
-            "has_sizes": false,
-            "price": 33.99,
-            "category": 7,
+            "name": "Blue Long Sleeve Roula Shirt",
+            "description": "Complete the look of your winter wordrobe.  great for everyday use or entertaining liquid-resistant design helps protect against spills.",
+            "has_sizes": true,
+            "price": 22.99,
+            "category": 6,
             "rating": 4.4,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0418201317011949M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-            "image": "DP0418201317011949M.jpg"
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/blue_long_sleeve.png?raw=true",
+            "image": "blue_long_sleeve.png"
         }
     }
 
