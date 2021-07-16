@@ -11,7 +11,7 @@
 
 {% block content %}
 <div id="overlay-products" class="overlay"></div>
-    <div id="product_detail_card" class="card col-md-8 col-md-6 col-lg-4 offset-lg-2 text-center">
+    <div id="product_detail_card" class="card col-md-12 col-md-8 col-md-6 col-lg-4 w-75 offset-lg-2">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-4 offset-lg-2">
@@ -57,15 +57,18 @@
                                     </div>
                                 </div>
     
-                                <div class="col-12">
-                                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
+                                <div class="col-sm-12">
+                                    <div class="row">
+                                    <a id="btn-text-color1" href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-2">
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span class="text-uppercase">Keep Shopping</span>
+                                        <span class="text-uppercase text-white">Keep Shopping</span>
                                     </a>
-                                    <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                    <input id="btn-text-color1" type="submit" class="btn text-white rounded-0 text-uppercase mt-2" value="Add to Bag">
+                                    </div>
                                 </div>
+                               
                                 <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             </div>
                         </form>

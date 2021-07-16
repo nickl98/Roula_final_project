@@ -163,6 +163,13 @@ body {
     font-weight: 600;
     font-family: "Roboto-Slab";
 }
+/* Product Detail Buttons */
+#btn-text-color1 {
+    background-color: #42629a;
+    color: #000;
+    font-weight: 600;
+    font-family: "Roboto-Slab";
+}
 .bg-color {
     background-color: #5cdb95;
 }
@@ -232,7 +239,10 @@ body {
 .fa-search {
     color: #edf5e1;
 }
-
+/* Back Icon */
+.icon {
+    color: white;
+}
 /* Hamburger Icon */
 .fa-bars {
     color: #edf5e1;
@@ -290,9 +300,10 @@ a.category-badge > span.badge:hover {
 }
 
 .btn-outline-black {
-    background: white;
+    background: rgb(252, 252, 252);
     color: black !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
+    z-index: 1;
 }
 
 /* -------------------------------- Media Queries */
