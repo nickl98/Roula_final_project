@@ -263,6 +263,12 @@ body {
 #cart-text-color {
     color: #8ee4af;
 }
+/* link hovering */
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
 
 /* Content Body */
 
