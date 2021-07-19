@@ -270,6 +270,23 @@ body {
     cursor: pointer;
 }
 
+/* ------------------------------- bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
 /* Content Body */
 
 #content-body {
@@ -306,7 +323,7 @@ body {
 }
 
 #product-background {
-    background-color:#8ee4af;
+    background-color:#edf5e1;
 
     z-index: -1;
 }
