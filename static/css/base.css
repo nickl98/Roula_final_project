@@ -250,10 +250,18 @@ body {
     color: #edf5e1;
     border-color: #edf5e1;
 }
-
+/* quantity_color buttons */
+#quantity_color {
+    color: black;
+    background-color: #42629a;
+}
 /* Shopping bag Css */
 #shopping-bag-text {
     color: #42629a;
+}
+/* Shopping Cart  */
+#cart-text-color {
+    color: #8ee4af;
 }
 
 /* Content Body */
