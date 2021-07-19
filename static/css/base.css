@@ -204,6 +204,15 @@ body {
 .btn-black1:focus {
     background: #5cdb95;
     color: black;
+   
+}
+
+.btn-black2:hover,
+.btn-black2:active,
+.btn-black2:focus {
+    background: #5cdb95;
+    color: black;
+   
 }
 
 .btn-black1 {
@@ -418,7 +427,7 @@ a.category-badge > span.badge:hover {
 .btn-outline-black {
     background: rgb(252, 252, 252);
     color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    border: 1px solid black !important;
     z-index: 1;
 }
 
