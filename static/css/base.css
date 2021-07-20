@@ -390,6 +390,13 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
 }
+ /* Map settings */
+
+ #map-container{
+     z-index: 99999;
+     size: 900px;
+ }
+
 /* Content Body */
 
 #content-body {
