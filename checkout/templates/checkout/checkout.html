@@ -22,6 +22,13 @@
             <div class="col">
                 <hr id="hr-color">
                 <h2 class="logo-font mb-4">Checkout</h2>
+                <div id="loading-overlay">
+                    <h1 class="text-light logo-font loading-spinner">
+                        <span class="icon">
+                            <i class="fas fa-2x fa-sync-alt fa-spin"></i>
+                        </span>
+                    </h1>
+                </div>
                 <hr id="hr-color">
             </div>
         </div>
@@ -59,7 +66,7 @@
                     </div>
                 {% endfor %}
                 <hr class="my-0">
-                <div class="row text-black text-right">
+                <div class="row text-black3 text-right">
                     <div class="col-7 offset-2">
                         <p class="my-0">Order Total:</p>
                         <p class="my-0">Delivery:</p>
@@ -77,12 +84,12 @@
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                     {% csrf_token %}
                     <fieldset class="rounded px-3 mb-5">
-                        <legend class="fieldset-label small text-black px-2 w-auto">Details</legend>
+                        <legend class="fieldset-label small text-black3 px-2 w-auto">Details</legend>
                         {{ order_form.full_name | as_crispy_field }}<br>
                         {{ order_form.email | as_crispy_field }}
                     </fieldset>
                     <fieldset class="rounded px-3 mb-5">
-                        <legend class="fieldset-label small text-black px-2 w-auto">Delivery</legend>
+                        <legend class="fieldset-label small text-black3 px-2 w-auto">Delivery</legend>
                         {{ order_form.phone_number | as_crispy_field }}<br>
                         {{ order_form.country | as_crispy_field }}<br>
                         {{ order_form.postcode | as_crispy_field }}<br>
@@ -103,7 +110,7 @@
 						</div>
                     </fieldset>
                     <fieldset class="px-3">
-                        <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
+                        <legend class="fieldset-label small text-black3 px-2 w-auto">Payment</legend>
                         <!-- A Stripe card element will go here -->
                         <div class="mb-3" id="card-element"></div>
 
@@ -135,6 +142,7 @@
             </div>
         </div>
     </div>
+   
 {% endblock %}
 
 {% block postloadjs %}
