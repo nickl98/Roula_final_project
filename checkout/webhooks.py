@@ -6,7 +6,6 @@ from django.views.decorators.csrf import csrf_exempt
 from checkout.webhook_handler import StripeWH_Handler
 
 import stripe
-# Still reciving a POST /checkout/wh/ HTTP/1.1" 400 0 
 
 @require_POST
 @csrf_exempt
