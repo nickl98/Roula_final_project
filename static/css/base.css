@@ -518,19 +518,36 @@ a.category-badge > span.badge:hover {
     #dream_bubble {
         display: none;
     }
+    #product_detail_card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        background-color: #f4f4f4;
+        margin-top: 25px;
+        position: relative;
+        width: 100%;
+    }
+    
 
 }
 
-/* Landscape */
+/* Tablet size */
+
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
+  and (orientation: portrait) { 
+    
+    #product_detail_card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        background-color: #f4f4f4;
+        margin-top: 25px;
+        position: relative;
+        width: 75%;
+    }
+    
 
 }
-
-
-/* Ticker css */
-
-
