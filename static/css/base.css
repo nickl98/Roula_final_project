@@ -13,6 +13,12 @@ body {
     font-family: 'Roboto Slab';
     z-index: 1;
     padding-top: 50px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* added in scrollbar to work but not be visible */
+body:-webkit-scrollbar {
+    display: none;
 }
 /* Logo Font Style */
 
