@@ -54,7 +54,7 @@ body {
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
-    background-color: #edf5e1;
+    background-color: #f4f4f4;
     margin-top: 25px;
     position: relative;
 }
@@ -434,8 +434,7 @@ body {
 }
 
 #product-background {
-    background-color:#edf5e1;
-
+    background-color:#F4F4F4;
     z-index: -1;
 }
 a.category-badge > span.badge:hover {
