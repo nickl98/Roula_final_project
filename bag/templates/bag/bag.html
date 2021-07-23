@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col">
                 <hr id="hr-color">
-                <h2 class="logo-font mb-4">Shopping Bag</h2>
+                <h2 class="logo-font d-flex justify-content-center">Shopping Bag</h2>
                 <hr id="hr-color">
             </div>
         </div>
@@ -30,7 +30,6 @@
                                 <tr id="shopping-bag-text">
                                     <th scope="col">Product Info</th>
                                     <th scope="col"></th>
-                                    <th scope="col">Price</th>
                                     <th scope="col">Qty</th>
                                     <th scope="col">Subtotal</th>
                                 </tr>
@@ -38,18 +37,16 @@
 
                             {% for item in bag_items %}
                                 <tr>
-                                    <td class="p-3 w-25">
+                                    <td class="p-2 w-25">
                                         <img class="img-fluid rounded" src="{{ item.product.image.url }}">
                                     </td>
-                                    <td class="py-3">
+                                    <td class="py-2">
                                         <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                                         <p class="my-0"><strong>Size: </strong>{% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
+                                        <p class="my-0"><strong>Price: </strong>${{ item.product.price }}</p>
                                         <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                                     </td>
-                                    <td class="py-3">
-                                        <p class="my-0">${{ item.product.price }}</p>
-                                    </td>
-                                    <td class="py-3 w-25">
+                                    <td class="py-2 w-25">
                                         <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                                             {% csrf_token %}
                                             <div class="form-group">
@@ -90,7 +87,7 @@
                                 
                             {% endfor %}
                             <tr>
-                                <td colspan="5" class="pt-5 text-right">
+                                <td colspan="5" class="pt-5 text-left">
                                     <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
                                     <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
                                     <hr id="hr-color">

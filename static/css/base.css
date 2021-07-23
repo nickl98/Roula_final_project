@@ -533,6 +533,12 @@ a.category-badge > span.badge:hover {
         position: relative;
         width: 100%;
     }
+
+    #product-background {
+        background-color:#F4F4F4;
+        z-index: -1;
+        margin-top: 20px;
+    }
     
 
 }
