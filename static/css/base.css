@@ -103,6 +103,7 @@ body:-webkit-scrollbar {
  #sorting_background {
      z-index: 2;
      color: #42629a;
+     padding-bottom: 40px;
  }
 
  #header-card {
@@ -176,6 +177,18 @@ body:-webkit-scrollbar {
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
+
+/* Checkout succuess text */
+
+#bold-shopping-cart-text {
+    font-weight: 400;
+}
+
+/* Product image */
+.image-container {
+    margin-top: 10px;
+}
+
 
 .btn-lg {
     color: #5cdb95;
@@ -440,9 +453,12 @@ body:-webkit-scrollbar {
 	z-index: -1;
 }
 
+
+
 #product-background {
     background-color:#F4F4F4;
     z-index: -1;
+    
 }
 a.category-badge > span.badge:hover {
     background: #5cdb95 !important;
