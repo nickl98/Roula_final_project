@@ -298,6 +298,11 @@ body:-webkit-scrollbar {
 .btt-link {
     cursor: pointer;
 }
+
+input[name='q']::placeholder {
+    color: #aab7c4;
+}
+
 /* Search Icon */
 
 .fa-search {
@@ -474,6 +479,14 @@ body:-webkit-scrollbar {
      size: 900px;
  }
 
+/* Alluth Base Card */
+
+#allauth-background-card {
+    background-color: #F4F4F4;
+}
+
+
+
 /* Content Body */
 
 #content-body {
@@ -508,7 +521,15 @@ body:-webkit-scrollbar {
 	background: #8ee4af;
 	z-index: -1;
 }
-
+ .overlay3 {
+    height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: #f4f4f4;
+	z-index: -2;
+ }
 
 
 #product-background {
