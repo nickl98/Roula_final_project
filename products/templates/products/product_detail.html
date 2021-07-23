@@ -10,11 +10,11 @@
 {% endblock %}
 
 {% block content %}
-        <div id="product_detail_card" class="card col-md-12 col-md-8 col-sm-6 d-flex justify-content-center offset-lg-2">
+        <div id="product_detail_card" class="card col-12 col-md-8 col-md-6 offset-lg-2">
             <div class="container-fluid">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-12 col-md-8 col-lg-4 offset-lg-2">
-                        <div class="image-container my-5">
+                    <div class="col-12 col-md-8 col-md-4 ">
+                        <div class="image-container my-4">
                             {% if product.image %}
                                 <a href="{{ product.image.url }}" target="_blank">
                                     <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
@@ -26,8 +26,8 @@
                             {% endif %}
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="product-details-container mb-5 mt-md-5">
+                    <div class="col-sm-12 col-md-6 col-sm-4">
+                        <div class="product-details-container justify-content-center mb-5 mt-md-5">
                             <p class="mb-0">{{ product.name }}</p>
                             <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                             {% if product.category %}
@@ -89,12 +89,12 @@
                                     </div>
         
                                     <div class="col{% if s %}-12 mt-2{% endif %}">
-                                        <div class="row">
+                                        <div class="row d-flex justify-content-center">
                                         <a id="btn-text-color1" href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-2">
                                             <span class="icon">
                                                 <i class="fas fa-chevron-left"></i>
                                             </span>
-                                            <span class="text-uppercase text-white">Keep Shopping</span>
+                                            <span class="text-uppercase text-white w-60">Keep Shopping</span>
                                         </a>
                                         <input id="btn-text-color1" type="submit" class="btn text-white rounded-0 text-uppercase mt-2" value="Add to Bag">
                                         </div>

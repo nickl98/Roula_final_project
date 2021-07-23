@@ -63,6 +63,7 @@ body:-webkit-scrollbar {
     background-color: #f4f4f4;
     margin-top: 25px;
     position: relative;
+
 }
 
 /* Delivery Banner */
@@ -558,8 +559,8 @@ a.category-badge > span.badge:hover {
         background-color: #f4f4f4;
         margin-top: 25px;
         position: relative;
-        width: 75%;
     }
+    
     
 
 }
