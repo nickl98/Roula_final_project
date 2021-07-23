@@ -413,6 +413,13 @@ input[name='q']::placeholder {
 	color: #17a2b8; /* text-info */
 }
 
+.allauth-form-inner-content {
+    padding-bottom: 20px;
+}
+ .form-group {
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
 
  /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
@@ -485,7 +492,11 @@ input[name='q']::placeholder {
     background-color: #F4F4F4;
 }
 
+/* Alluth signup spsacing */
 
+#signup_form {
+    margin-top: auto;
+}
 
 /* Content Body */
 
