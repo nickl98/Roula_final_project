@@ -1,0 +1,1 @@
+Roula Store confirmation email for Order Number {{ order.order_number }}
