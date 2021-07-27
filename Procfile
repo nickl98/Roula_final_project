@@ -1,0 +1,1 @@
+web: gunicorn roula_final.wsgi:application
