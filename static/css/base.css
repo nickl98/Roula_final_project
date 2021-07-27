@@ -3,7 +3,21 @@ html {
     
 }
 #html_style {
-    background-color: #5db27f;
+    background: linear-gradient(-45deg, #5cdb95, #8ee4af, #edf5e1, #5db27f);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
 }
 
 body {
@@ -112,6 +126,21 @@ body:-webkit-scrollbar {
        inset 0 -3em 3em rgba(0,0,0,0.1),
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
+             background: linear-gradient(-45deg, #5cdb95, #8ee4af, #42629a, #5db27f);
+             background-size: 400% 400%;
+             animation: gradient 15s ease infinite;
+         }
+         
+         @keyframes gradient {
+         0% {
+             background-position: 0% 50%;
+         }
+         50% {
+             background-position: 100% 50%;
+         }
+         100% {
+             background-position: 0% 50%;
+         }
 
  }
 
@@ -143,21 +172,6 @@ body:-webkit-scrollbar {
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
     height: fit-content;
-    background: linear-gradient(-45deg, #5cdb95, #8ee4af, #edf5e1, #5db27f);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-0% {
-    background-position: 0% 50%;
-}
-50% {
-    background-position: 100% 50%;
-}
-100% {
-    background-position: 0% 50%;
-}
 
    
 }
