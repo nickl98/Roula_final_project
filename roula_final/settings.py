@@ -114,15 +114,11 @@ WSGI_APPLICATION = 'roula_final.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
 DATABASES = {
-    'default': dj_database_url.parse('postgres://ifgxdwkfkwhhjb:8e2e2b4d72705fa7566aef9fb2b0b038db22635ca186d7e26f790c5916dcb3a0@ec2-52-6-211-59.compute-1.amazonaws.com:5432/dd76p2rmlhugbc')
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
 }
 
 
