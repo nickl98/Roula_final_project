@@ -231,7 +231,8 @@ body:-webkit-scrollbar {
 .image-container {
     margin-top: 10px;
 }
-
+ /* Bug fix?git add .
+ git  commit -m " " */
 
 .btn-lg {
     color: #5cdb95;
