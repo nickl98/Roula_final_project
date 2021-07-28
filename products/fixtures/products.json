@@ -11,7 +11,7 @@
             "category": 2,
             "rating": 5.0,
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/5_dollar_dono.png?raw=true",
-            "image": "5_dollar_dono.png"
+            "image": "donnation_custom.png"
         }
     },
     {
@@ -26,7 +26,7 @@
             "category": 2,
             "rating": 5.0,
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/50_dollar_dono.png?raw=true",
-            "image": "50_dollar_dono.png"
+            "image": "donnation_custom.png"
         }
     },
     {
@@ -41,7 +41,7 @@
             "category": 2,
             "rating": 4.7,
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/100_dollar_dono.png?raw=true",
-            "image": "100_dollar_dono.png"
+            "image": "donnation_custom.png"
         }
     },
     {
