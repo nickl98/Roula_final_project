@@ -69,6 +69,7 @@ body:-webkit-scrollbar {
     background-color: #5cdb95;
     border-color: #edf5e1;
     padding: 20px;
+    
     box-shadow:
        inset 0 -3em 3em rgba(0,0,0,0.1),
              0 0  0 2px rgb(255,255,255),
@@ -88,6 +89,26 @@ body:-webkit-scrollbar {
 100% {
     background-position: 0% 50%;
 }
+}
+.delivery-banner {
+    transition: top 0.5s ease;
+}
+.delivery-banner-hide {
+    top: -56px;
+}
+
+#delivery-banner-hide {
+    top: -56px;
+}
+
+.delivery-banner {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.delivery-banner-hide {
+    pointer-events: none;
+    opacity: 0;
 }
 
 #delivery-banner h4 {
@@ -636,6 +657,19 @@ a.category-badge > span.badge:hover {
     border-color: #dc3545;
     border-radius: 0;
 }
+
+/* Hidng Navabr on mobile */
+
+.navbar {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+}
+
 
 /* -------------------------------- Media Queries */
 
