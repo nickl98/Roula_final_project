@@ -609,8 +609,6 @@ a.category-badge > span.badge:hover {
     border: 1px solid black !important;
     z-index: 1;
 }
- /* Making a minor change to test aws */
-
 /* Product Form */
 
 .btn-file {
