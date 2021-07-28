@@ -2,9 +2,6 @@ html {
     height: 100%;
     
 }
-#html_style {
-   
-}
 
 body {
     background: url('/media/abstract_background.png') no-repeat center center fixed;
@@ -140,13 +137,7 @@ body:-webkit-scrollbar {
      background: none;
      border: #5cdb95;
      margin-top: 20px;
-     border-color: #edf5e1;
-     padding: 20px;
-     box-shadow:
-        inset 0 -3em 3em rgba(0,0,0,0.1),
-              0 0  0 2px rgb(0,0,0),
-              0.3em 0.3em 1em rgba(0,0,0,0.3);
-     height: fit-content;
+     
  }
 #header-1 {
     background: #8ee4af;
@@ -335,9 +326,6 @@ body:-webkit-scrollbar {
 }
 /* Card Group */
 
-.card-group {
-    background-color: #dc3545;
-}
 .card-group .card {
     background-color: #8ee4af;
     margin: 10px;
@@ -380,7 +368,7 @@ input[name='q']::placeholder {
 }
 /* Shopping bag Css */
 #shopping-bag-text {
-    color: #42629a;
+    color: white;
 }
 /* Shopping Cart  */
 #cart-text-color {
