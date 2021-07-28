@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <h1>Welcome To the Roula Blog!</h1>
+
+    {% for post in object_list %}
+         <li>{{ post.title }} - {{ post.author }}</li>
+        {{ post.body }}
+    {% endfor %}
+
+
+
+{% endblock%}
