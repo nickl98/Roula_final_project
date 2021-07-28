@@ -186,4 +186,5 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), ) # same as media below, w
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # to get media_url functioning, we specify the root
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # to get media_url functioning, we specify the rootgit add .
+
