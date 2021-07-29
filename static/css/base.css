@@ -259,6 +259,7 @@ body:-webkit-scrollbar {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 100%;
     margin: auto;
+    margin-bottom: 10px;
   }
 
   .btn-block {
@@ -740,6 +741,33 @@ footer {
      size: 900px;
  }
 
+ #map-container2 {
+    z-index: 99999;
+    size: 900px;
+    background-color: gray;
+    overflow-x: auto;
+    background: linear-gradient(-45deg, #5cdb95, #8ee4af, #edf5e1, #5db27f);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+ }
+
+ .container:-webkit-scrollbar {
+    display: none;
+}
+
 /* Alluth Base Card */
 
 #allauth-background-card {
@@ -945,6 +973,10 @@ a.category-badge > span.badge:hover {
 
     #main-footer {
         display: none;
+    }
+
+    #map-container, #map-container2 {
+        margin-top: 30px;
     }
     @media screen and (max-width: 360px) {
         
