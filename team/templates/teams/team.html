@@ -12,9 +12,10 @@
 
 {% block content %}
 
-    <div id="map-container2" class="container h-100">
+    <div id="map-container2" class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3">
+                <hr id="hr-color" class="w-100 mb-1">
                 <h2 class="logo-font">The Devloper Team</h2>
                 <hr id="hr-color" class="w-100 mb-1">
             </div>
@@ -43,7 +44,12 @@
                     <a class="card-social" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
-                <p><a class ="coach-profile-button btn btn-block" href="">View Profile <i class="fas fa-credit-card"></i></a></p>
+                {% if request.user.is_superuser %}
+                    <small class="ml-3">
+                        Test if super can see
+                    </small>
+                {% endif %}
+                <p><a class ="black-btn2 btn-block" href="">View Profile <i class="fas fa-id-badge"></i></a></p>
                 </div>
             </div>
         {% endfor %}

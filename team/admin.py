@@ -9,6 +9,7 @@ class TeamAdmin(admin.ModelAdmin):
         'name',
         'college',
         'years_experience',
+        'quote',
         'image',
         )
     ordering = ('name',)
