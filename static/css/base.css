@@ -261,7 +261,9 @@ body:-webkit-scrollbar {
     margin: auto;
     margin-bottom: 10px;
   }
-
+    #dev-card{
+       margin-bottom: 15px;
+   }
   .btn-block {
     border: none;
     outline: 0;
@@ -762,7 +764,7 @@ footer {
     background-position: 0% 50%;
 }
 }
- }
+ 
 
  .container:-webkit-scrollbar {
     display: none;
