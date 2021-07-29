@@ -899,13 +899,23 @@ a.category-badge > span.badge:hover {
         position: relative;
         width: 100%;
     }
+    footer{
+        visibility: hidden;
+        display: none;
+    }
 
     #product-background {
         background-color:#F4F4F4;
         z-index: -1;
         margin-top: 20px;
     }
-    
+
+    #main-footer {
+        display: none;
+    }
+    @media screen and (max-width: 360px) {
+        
+       }
 
 }
 
