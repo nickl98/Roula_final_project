@@ -12,4 +12,3 @@ def team(request):
         'teams': teams,
     }
     return render(request, 'teams/team.html', context)
-

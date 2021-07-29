@@ -13,6 +13,36 @@
 {% block content %}
 
     <div id="map-container" class="container">
-        
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font">Coaches</h2>
+                <hr class="w-50 mb-1">
+            </div>
+        </div>
+        <div class="row">
+        <!---for loop of Coach profile-->   
+        {% for team in teams %}
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+    <!--Coach Profile image-->
+            <div class="card text-center mt-3 mb-3 px-4">
+                {% if team.image %}
+                <img src="{{ team.image.url }}" alt="{{ team.name }}" style="width:100%">
+                {% else %}
+                <img src="{{ MEDIA_URL }}noimage.jpg"  alt="{{ team.name }}" style="width:100%">
+                {% endif %}
+            <!--Coach Profile-->
+                <h4 class ="px-3">{{ team.name }}</h4>
+                <p class="college">{{ team.college }}</p>
+                <p>{{ team.years_experience }}</p>
+                    <a class="card-social" href="https://www.instagram.com/andrew_burns_moves/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a class="card-social" href="https://twitter.com/aburnsmoves" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="card-social" href="https://www.linkedin.com/in/andrewdburns/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a class="card-social" href="https://www.facebook.com/andrewburnsmoves" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="card-social" href="https://www.youtube.com/channel/UCRAIA8-iy_A7460Ix0PjTYg?view_as=subscriber"
+                            target="_blank"><i class="fab fa-youtube"></i></a>
+                <p><a class ="coach-profile-button btn btn-block" href="">Buy Class/Membership <i class="fas fa-credit-card"></i></a></p>
+                </div>
+            </div>
+            {% endfor %}
     </div>
 {% endblock%}

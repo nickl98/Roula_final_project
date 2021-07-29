@@ -241,8 +241,40 @@ body:-webkit-scrollbar {
        inset 0 -3em 3em rgba(0,0,0,0.1),
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
+} 
+
+/* Team css */
+.college {
+    color: gray;
+    font-size: 18px;
 }
 
+.card-social a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .btn-block {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #1a1a1a;
+    background-color:#80C4FF;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height:100%;
+    font-size: 18px;
+  }
+  
 /* Checkout succuess text */
 
 #bold-shopping-cart-text {
