@@ -159,5 +159,47 @@
         });
     </script>
     {% endblock %}
+    <footer class="mainfooter static-bottom" role="contentinfo">
+        <div class="footer-middle">
+        <div id="footer-bg" class="container">
+          <div class="row">
+              <div class="col-md-3 col-sm-6">
+                  <h4>Follow Us</h4>
+                  <ul class="social-network social-circle">
+                   <li><a href="https://www.facebook.com/" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                   <li><a href="https://www.linkedin.com/" class="icoLinkedin" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                   <li><a href="https://twitter.com/" class="icotwitter" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                  </ul>				
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <h4>Contact Us</h4>
+                <ul class="social-network social-circle">
+                 <li><a href="{% url 'contact_form' %}" class="icophone" title="Phone"><i class="fa fa-phone"></i></a></li>
+                 <li><a href="{% url 'contact_form' %}" class="icomail" title="Mail"><i class="fas fa-paper-plane"></i></a></li>
+                </ul>				
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h4>Locate Us</h4>
+                <ul class="social-network social-circle">
+                 <li><a href="{% url 'locations' %}" class="icolocation" title="Location"><i class="fas fa-search"></i></a></li>
+                </ul>				
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h4>Shop Now</h4>
+                <ul class="social-network social-circle">
+                 <li><a href="{% url 'products' %}" class="icoshop" title="Shopping"><i class="fas fa-shopping-bag"></i></a></li>
+                </ul>				
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12 copy">
+                  <p class="text-center">&copy; Copyright 2018 - Roula  All rights reserved.</p>
+              </div>
+          </div>
+      
+      
+        </div>
+        </div>
+      </footer>
   </body>
 </html>
