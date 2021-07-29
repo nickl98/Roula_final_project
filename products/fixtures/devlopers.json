@@ -59,5 +59,28 @@
             "image": "bobby.png"
         }
     },
-   
+    {
+        "pk": 6,
+        "model": "team.Team",
+        "fields": {
+            "name": "Susan Wojcicki",
+            "college": "Yale",
+            "years_experience": 25, 
+            "quote": "As the current CEO of YouTube, we are changing our stances and reaching out to the community we rely so much on upon.",
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/susan.png?raw=true",
+            "image": "susan.png"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "team.Team",
+        "fields": {
+            "name": "Andy Jassy",
+            "college": "Princeton",
+            "years_experience": 14, 
+            "quote": "As The lead founder of AWS, I can't think of a better chance than to work with Roula's Team.",
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/susan.png?raw=true",
+            "image": "andrew.png"
+        }
+    }
 ]

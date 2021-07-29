@@ -6,5 +6,4 @@ from . import views
 
 urlpatterns = [
     path('', views.team, name='team'),
-    path('add/', views.view_dev, name='view_dev'),
 ]
