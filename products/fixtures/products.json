@@ -148,6 +148,171 @@
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/blue_long_sleeve.png?raw=true",
             "image": "blue_long_sleeve.png"
         }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002709995",
+            "name": "Custom Roula Phanny Pack",
+            "description": "This is one of the coolest phanny packets on the market right now! Get it before it is too late",
+            "has_sizes": false,
+            "price": 54.99,
+            "category": 7,
+            "rating": 4.7,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/brown_bag.png?raw=true",
+            "image": "brown_bag.png"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002704445",
+            "name": "Gray Roula Sweatshirt",
+            "description": "This is one of the coolest Sweatshirts on the market right now! Get it before it is too late",
+            "has_sizes": true,
+            "price": 44.99,
+            "category": 4,
+            "rating": 4.9,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/gray_hoddie.png?raw=true",
+            "image": "gray_hoddie.png"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002703333",
+            "name": "Gray Roula Sweatpants",
+            "description": "This is one of the coolest Sweatpants on the market right now! Get it before it is too late",
+            "has_sizes": true,
+            "price": 34.99,
+            "category": 5,
+            "rating": 4.0,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/gray_sweat_pants.png?raw=true",
+            "image": "gray_sweat_pants.png"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002701111",
+            "name": "Green Roula Phanny Pack",
+            "description": "This is one of the greenest bags on the market right now! Get it before it is too late",
+            "has_sizes": false,
+            "price": 24.99,
+            "category": 7,
+            "rating": 4.2,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/greeen_bag.png?raw=true",
+            "image": "green_bag.png"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002707777",
+            "name": "Green Roula t-shirt with blue print",
+            "description": "This is one of the ugliest shirts we are selling, seriously dont Get it",
+            "has_sizes": true,
+            "price": 29.99,
+            "category": 6,
+            "rating": 4.2,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/green_t-shirt.png?raw=true",
+            "image": "green_t-shirt.png"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002708282",
+            "name": "Green Roula t-shirt with white print",
+            "description": "This is one of the greatest shirts we are selling, seriously Get it before it is too late!",
+            "has_sizes": true,
+            "price": 19.99,
+            "category": 6,
+            "rating": 4.4,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/green_tshirt_1.png?raw=true",
+            "image": "green_tshirt_1.png"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002709898",
+            "name": "Roula Olive Green shirt",
+            "description": "This is one of the most diffrent shirts we are selling, seriously dont know who made this one!",
+            "has_sizes": true,
+            "price": 21.99,
+            "category": 6,
+            "rating": 2.2,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/olive_t-shirt.png?raw=true",
+            "image": "olive_tshirt.png"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002712345",
+            "name": "Red Roula Water Bottle",
+            "description": "This is one of the most efficent water bottles on the market!",
+            "has_sizes": false,
+            "price": 19.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/red_water_bottle.png?raw=true",
+            "image": "red_water_bottle.png"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002712665",
+            "name": "White Roula Water Bottle",
+            "description": "This is one of the most efficent/wonderful/organic water bottles on the market!",
+            "has_sizes": false,
+            "price": 19.99,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/white_bottle.png?raw=true",
+            "image": "white_bottle.png"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5088712665",
+            "name": "Tie Die long sleeve Roula shirt",
+            "description": "This is one of the shirts we have to offer, with its stunning red desgin!",
+            "has_sizes": true,
+            "price": 33.99,
+            "category": 6,
+            "rating": 4.4,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/tie-die.png?raw=true",
+            "image": "tie-die.png"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002788665",
+            "name": "White long sleeve Roula shirt",
+            "description": "This is one of the shirts we have to offer, with its stunning white desgin!",
+            "has_sizes": true,
+            "price": 22.99,
+            "category": 6,
+            "rating": 4.4,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/tie-die.png?raw=true",
+            "image": "white_long_sleeve.png"
+        }
     }
 
 ]
