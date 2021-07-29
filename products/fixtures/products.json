@@ -206,7 +206,7 @@
             "category": 7,
             "rating": 4.2,
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/greeen_bag.png?raw=true",
-            "image": "green_bag.png"
+            "image": "greeen_bag.png"
         }
     },
     {
@@ -251,7 +251,7 @@
             "category": 6,
             "rating": 2.2,
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/olive_t-shirt.png?raw=true",
-            "image": "olive_tshirt.png"
+            "image": "olive_t-shirt.png"
         }
     },
     {
@@ -312,6 +312,21 @@
             "rating": 4.4,
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/tie-die.png?raw=true",
             "image": "white_long_sleeve.png"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002785585",
+            "name": "White Roula Usb 2 TB",
+            "description": "This is the fasted usb drive on the market with 2 TB of storage.",
+            "has_sizes": false,
+            "price": 199.99,
+            "category": 9,
+            "rating": 5,
+            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/white_usb.png?raw=true",
+            "image": "white_usb.png"
         }
     }
 
