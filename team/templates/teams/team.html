@@ -36,14 +36,22 @@
                 <h4 class ="px-3">{{ team.name }}</h4>
                 <p class="college">Education: {{ team.college }}</p>
                 <p class="text-muted">Years of Experience: {{ team.years_experience }}</p>
+                <i class="text-muted">Quote: {{ team.quote }}</i>
                 <div class="row">
                     <div class="col">
-                        <a id="dev-btn" class ="btn-black1 border-0" href="">View Profile <i class="fas fa-id-badge"></i></a>
+                    <a class="card-social" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a class="card-social" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="card-social" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a class="card-social" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="card-social" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 {% if request.user.is_superuser %}
                     <small class="ml-3">
-                        Test if super can see
+                        <div class="col">
+                            <a id="dev-btn" class ="btn-black1 border-0" href="#">View Profile <i class="fas fa-id-badge"></i></a>
+                        </div>
+                        *Down for Maintanice*
                     </small>
                 {% endif %}
                

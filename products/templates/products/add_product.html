@@ -18,6 +18,11 @@
                 <hr id="hr-color">
                 <h2 class="logo-font mb-4 d-flex justify-content-center">Item Management</h2>
                 <h5 class="text-muted">Add a Product</h5>
+                {% if request.user.is_superuser %}
+                    <small class="text-danger">All images are created by the design team, only they can upload.
+                        Till the desgin team sends them over, a image will be uploaded instead!
+                    </small>
+                {% endif %}
                 <hr id="hr-color">
             </div>
         </div>

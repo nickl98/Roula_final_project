@@ -431,7 +431,7 @@ input[name='q']::placeholder {
 }
 /* Shopping bag Css */
 #shopping-bag-text {
-    color: white;
+    color: black;
 }
 /* Shopping Cart  */
 #cart-text-color {
@@ -445,7 +445,9 @@ input[name='q']::placeholder {
 }
 /* Footer css */
 footer {
-    position: relative;
+    
+position:fixed;bottom:0;left:0;right:0;height:30px;
+   
 	margin-top: -150px; /* negative value of footer height */
 	height: 150px;
 	clear:both;
@@ -507,6 +509,12 @@ footer {
   ul.social-network li {
       display: inline;
       margin: 0 5px;
+  }
+
+  /* Container padding */
+
+  #page1 {
+      padding-bottom: 150px;
   }
 
 
@@ -750,6 +758,7 @@ footer {
  #map-container2 {
     z-index: 99999;
     size: 900px;
+    padding-bottom: 150px;
     background-color: gray;
     overflow-x: auto;
     background: linear-gradient(-45deg, #F4F4F4, #8ee4af, #edf5e1, #42629a);
@@ -834,6 +843,7 @@ footer {
 #product-background {
     background-color:#F4F4F4;
     z-index: -1;
+    padding-bottom: 150px;
     
 }
 a.category-badge > span.badge:hover {
@@ -983,6 +993,7 @@ a.category-badge > span.badge:hover {
 
     #map-container, #map-container2 {
         margin-top: 30px;
+
     }
     @media screen and (max-width: 360px) {
         
