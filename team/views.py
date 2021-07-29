@@ -12,3 +12,14 @@ def team(request):
         'teams': teams,
     }
     return render(request, 'teams/team.html', context)
+
+
+def dev_detail(request):
+    """ A view to show individual product details """
+
+    
+    context = {
+        'team': team,
+    }
+
+    return render(request, 'team/view_dev.html', context)
