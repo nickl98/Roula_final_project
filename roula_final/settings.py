@@ -87,6 +87,7 @@ TEMPLATES = [
         },
     },
 ]
+# Bug fix
 
 # Getting rid of autofeild warning
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
