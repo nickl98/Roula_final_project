@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 body {
-    background: url('/media/abstract_background.png') no-repeat center center fixed;
+    background: url('https://github.com/nickl98/Roula_final_project/blob/main/media/abstract_background.png?raw=true') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     font-family: 'Roboto Slab';
