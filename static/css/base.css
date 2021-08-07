@@ -43,7 +43,7 @@ body:-webkit-scrollbar {
     position: relative;
 }
 /* Delivery Banner */
-#delivery-banner {
+.delivery-banner {
     background-color: #5cdb95;
     border-color: #edf5e1;
     padding: 20px;
@@ -69,7 +69,7 @@ body:-webkit-scrollbar {
 .delivery-banner-hide {
     top: -56px;
 }
-#delivery-banner-hide {
+.delivery-banner-hide {
     top: -56px;
 }
 .delivery-banner {
@@ -80,14 +80,14 @@ body:-webkit-scrollbar {
     pointer-events: none;
     opacity: 0;
 }
-#delivery-banner h4 {
+.delivery-banner h4 {
     color: #05386b;
 }
 /* Header */
 .bg-back {
     background-color: #42629a;
 }
-#bottom-header {
+.bottom-header {
     background-color: #42629a;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -763,7 +763,7 @@ a.category-badge > span.badge:hover {
         margin-top: 40px;
         padding-top: 100px;
    }
-    #bottom-header {
+    .bottom-header {
         margin-top: 20px;
    }
     #dream_bubble {
