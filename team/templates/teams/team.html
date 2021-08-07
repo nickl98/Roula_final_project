@@ -25,7 +25,7 @@
         {% for team in teams %}
             <div id="dev-card"class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
         <!--Devlopers Profile image-->
-            <div id="card2" style="width:100%; text-align:center" class="h-100 border-0">
+            <div style="width:100%; text-align:center" class="h-100 card2 border-0">
                 {% if team.image %}
                 <a href="{{ team.image.url }}" target="_blank">
                     <img class="card-img-top" src="{{ team.image.url }}" alt="{{ team.name }}">
