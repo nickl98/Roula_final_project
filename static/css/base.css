@@ -114,7 +114,7 @@ body:-webkit-scrollbar {
     color: #42629a;
     padding-bottom: 40px;
 }
-#header-card {
+.header-card {
     background: none;
     border: #5cdb95;
     margin-top: 20px;
