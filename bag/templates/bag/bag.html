@@ -15,9 +15,9 @@
     <div id="product-background" class="container mb-2">
         <div class="row">
             <div class="col">
-                <hr id="hr-color">
+                <hr class="hr-color">
                 <h2 class="logo-font d-flex justify-content-center">Shopping Bag</h2>
-                <hr id="hr-color">
+                <hr class="hr-color">
             </div>
         </div>
 
@@ -94,7 +94,7 @@
                                 <td colspan="5" class="pt-5 text-left">
                                     <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
                                     <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
-                                    <hr id="hr-color">
+                                    <hr class="hr-color">
                                     <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
                                     {% if free_delivery_delta > 0 %}
                                         <p class="mb-1 text-danger">
@@ -118,14 +118,14 @@
                                             <i class="fas fa-lock"></i>
                                         </span>
                                     </a>
-                                    <hr id="hr-color">
+                                    <hr class="hr-color">
                                 </td>
                             </tr>
                         </table>
                     </div>
                 {% else %}
                 
-                <hr id="hr-color">
+                <hr class="hr-color">
                     <p class="lead mb-5">Your bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
