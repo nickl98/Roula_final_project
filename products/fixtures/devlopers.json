@@ -8,7 +8,7 @@
             "years_experience": 5, 
             "quote": "Coding is one of the best, and the most interesting wonder of the world. You either hate it or love it",
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/nick.png?raw=true",
-            "image": "staticfiles/img/nick.png"
+            "image": "nick.png"
         }
     },
     {
@@ -20,7 +20,7 @@
             "years_experience": 20, 
             "quote": "I can not wait to start working on decentralizing people's data and giving the money back to the people.",
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/elon.png?raw=true",
-            "image": "staticfiles/img/elon.png"
+            "image": "elon.png"
         }
     },
     {
@@ -32,7 +32,7 @@
             "years_experience": 15, 
             "quote": "As the creator of Twitter, I am also a strong advocate of open-source coding. Why not also pay for data?",
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/jackd.png?raw=true",
-            "image": "staticfiles/img/jackd.png"
+            "image": "jackd.png"
         }
     },
     {
@@ -44,7 +44,7 @@
             "years_experience": 1, 
             "quote": "As a famous comedian I stand by this organization, I am glad to be apart of it!",
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/kevin.png?raw=true",
-            "image": "staticfiles/img/kevin.png"
+            "image": "kevin.png"
         }
     },
     {
@@ -56,7 +56,7 @@
             "years_experience": 5, 
             "quote": "As a famous comedian/podcast host, I stand by this organization fully. Our Podcast was one of the first to be featured",
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/bobby.png?raw=true",
-            "image": "staticfiles/img/bobby.png"
+            "image": "bobby.png"
         }
     },
     {
@@ -68,7 +68,7 @@
             "years_experience": 25, 
             "quote": "As the current CEO of YouTube, we are changing our stances and reaching out to the community we rely so much on upon.",
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/susan.png?raw=true",
-            "image": "staticfiles/img/susan.png"
+            "image": "susan.png"
         }
     },
     {
@@ -80,7 +80,7 @@
             "years_experience": 14, 
             "quote": "As The lead founder of AWS, I can't think of a better chance than to work with Roula's Team.",
             "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/susan.png?raw=true",
-            "image": "staticfiles/img/andrew.png"
+            "image": "andrew.png"
         }
     }
 ]
