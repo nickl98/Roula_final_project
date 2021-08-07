@@ -114,8 +114,14 @@ body:-webkit-scrollbar {
     color: #42629a;
     padding-bottom: 40px;
 }
-.header-card {
-    background: none;
+#header-content-bg {
+    background: #8ee4af;
+    border: #8ee4af;
+    margin-top: 20px;
+}
+
+.card .header-card .col-md-12{
+    background: #5cdb95;
     border: #5cdb95;
     margin-top: 20px;
 }
