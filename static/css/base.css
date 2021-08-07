@@ -16,22 +16,12 @@ body:-webkit-scrollbar {
     display: none;
 }
 /* Logo Font Style */
-#logo-text-store {
+.logo-text-store {
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
 }
-/* Top of Main page */
-#header-top-css {
-    color: #05386b;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
-}
-/* Hidden sizing elements */
-#hidden_spacing {
-    margin: 20px;
-}
-/* Random Box desgin */
-#box-1 {
-    background-color: #5cdb95;
-}
+
+
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -41,7 +31,7 @@ body:-webkit-scrollbar {
     width: 1.5rem;
 }
 /* Card settings */
-#product_detail_card {
+.product_detail_card {
     margin: 0 auto;
    /* Added */
     float: none;
@@ -779,7 +769,7 @@ a.category-badge > span.badge:hover {
     #dream_bubble {
         display: none;
    }
-    #product_detail_card {
+    .product_detail_card {
         margin: 0 auto;
        /* Added */
         float: none;
@@ -812,7 +802,7 @@ a.category-badge > span.badge:hover {
 }
 /* Tablet size */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-    #product_detail_card {
+    .product_detail_card {
         margin: 0 auto;
        /* Added */
         float: none;
