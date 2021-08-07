@@ -23,12 +23,12 @@
         <div class="row">
         <!---for loop of Devlopers profile-->   
         {% for team in teams %}
-            <div id="dev-card"class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div id="dev-card"class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
         <!--Devlopers Profile image-->
-            <div id="card2" style="width:100%; text-align:center" class="card h-100 text-center mt-3 mb-3 px-4">
+            <div id="card2" style="width:100%; text-align:center" class="h-100 border-0">
                 {% if team.image %}
                 <a href="{{ team.image.url }}" target="_blank">
-                    <img class="card-img-top img-fluid" src="{{ team.image.url }}" alt="{{ team.name }}">
+                    <img class="card-img-top" src="{{ team.image.url }}" alt="{{ team.name }}">
                 </a>
                 
                 {% else %}
