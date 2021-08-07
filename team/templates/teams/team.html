@@ -27,7 +27,7 @@
         <!--Devlopers Profile image-->
             <div id="card2" style="width:100%; text-align:center" class="card h-100 text-center mt-3 mb-3 px-4">
                 {% if team.image %}
-                <img class="card-img-top img-fluid" src="{{ team.image }}" alt="{{ team.name }}"
+                <img class="card-img-top img-fluid" src="{{ team.image.url }}" alt="{{ team.name }}"
                 style="width: 50%px; height: 50%; padding-top: 10px; padding-bottom: 10px;">
                 {% else %}
                 <img class="card-img-top img-fluid" src="noimage.png"  alt="{{ team.name }}" style="width: 350px; height: 250px;">
