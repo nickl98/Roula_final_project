@@ -154,7 +154,7 @@ body:-webkit-scrollbar {
         background-position: 0% 50%;
    }
 }
-#hr-color {
+.hr-color {
     color: black;
     height: 12px;
 }
