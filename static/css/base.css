@@ -777,12 +777,18 @@ ul.social-network li {
 
 /* Map settings */
 
-#map-container {
-	z-index: 99999;
-	size: 900px;
+.map-container {
+	z-index: -1;
+	size: 500px;
 }
 
-#map-container2 {
+#storerocket-widget {
+    z-index: 3;
+	padding-top: 20px;
+    
+}
+
+.map-container2 {
 	z-index: 99999;
 	size: 900px;
 	padding-bottom: 150px;
@@ -1042,8 +1048,8 @@ a.category-badge>span.badge:hover {
 	#main-footer {
 		display: none;
 	}
-	#map-container,
-	#map-container2 {
+	.map-container,
+	.map-container2 {
 		margin-top: 30px;
 	}
 	@media screen and (max-width: 360px) {}
