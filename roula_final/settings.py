@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'team',
+    'helpform',
 
 
     # Other apps

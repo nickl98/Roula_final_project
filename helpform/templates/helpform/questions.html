@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+    <div class="container-fluid map-container2">
+        <div class="row">
+            <div class="col text-center mt-3">
+               <div class="container-fluid map-top-header-bgcolor">
+                  <div class="row">
+                     <div class="col-md-8 col-md-12 text-center">
+                        <h1 class="display-4 map-top-header-color logo-font text-center">
+                           Question and Answer
+                        </h1>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        <div class="row">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <!-- Accordion -->
+                    <div id="accordionExample" class="accordion shadow">
+                        {% for trade in trades %}
+                        <!-- Accordion item 1 -->
+                        <div class="card trading-background">
+                            <!-- <div class="card-header shadow-sm border-0">
+                                <h2 class="mb-0">
+                                    <button type="button" data-toggle="collapse" data-target="#collapseOne-{{loop.index}}" aria-expanded="true" aria-controls="collapseOne" class="btn btn-link text-dark font-weight-bold text-uppercase">
+                                      {{ trade.game_name }} <i class="fas fa-caret-down"></i>
+                                    </button>
+                                    {% if trade.is_negotiable == "on" %}
+                                    <i class="fas fa-exclamation-circle" data-toggle="tooltip" data-placement="right" title="Trade is negotiable by seller!"></i>
+                                    {% endif %}
+                                </h2>
+                            </div>
+                            <div id="collapseOne-{{loop.index}}" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
+                                <div class="card-body p-5">
+                                    <strong>Tradeable on: {{ trade.console_name }}</strong>
+                                    <p>{{ trade.trade_desc }}</p>
+                                    <strong>Contact Seller</strong>
+                                    <p>{{ trade.gamer_tag }}</p>
+                                    <p><em>Listed by: {{ trade.created_by }}</em></p>
+                                    <div class="btn-row">
+                                        {% if session.user|lower == trade.created_by|lower %}
+                                        <a href="{{ url_for('delete_trade', trade_id=trade._id) }}"><button type="button" class="btn btn-success text-center">Item Sold</button></a>
+                                        <a href="{{ url_for('edit_trade', trade_id=trade._id) }}">
+                                            <button type="button" class="btn btn-secondary text-center">Edit Trade <i class="fas fa-wrench"></i></button>
+                                        </a>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{% endblock %}
