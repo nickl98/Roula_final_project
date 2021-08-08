@@ -5,5 +5,5 @@ from . import views
 # url path for team app
 
 urlpatterns = [
-    path('', views.team, name='questions'),
+    path('', views.question, name='questions'),
 ]

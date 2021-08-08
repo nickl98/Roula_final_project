@@ -1,86 +1,72 @@
 [
     {
         "pk": 1,
-        "model": "team.Team",
+        "model": "questions.Question",
         "fields": {
-            "author": "Nick Lodde",
-            "question": "KSU",
-            "answer": 5, 
-            "quote": "Coding is one of the best, and the most interesting wonder of the world. You either hate it or love it",
-            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/nick.png?raw=true",
-            "image": "nick.png"
+            "asked_by": "Christian Lodde",
+            "question_about": "When does Roula plan on releasing thier application to the public",
+            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "answered_by": "Roula Tech Support"
         }
     },
     {
         "pk": 2,
-        "model": "team.Team",
+        "model": "question.Question",
         "fields": {
-            "name": "Elon Musk",
-            "college": "Yale",
-            "years_experience": 20, 
-            "quote": "I can not wait to start working on decentralizing people's data and giving the money back to the people.",
-            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/elon.png?raw=true",
-            "image": "elon.png"
+            "asked_by": "Christian Lodde",
+            "question_about": "When does Roula plan on releasing thier application to the public",
+            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "answered_by": "Roula Tech Support"
         }
     },
     {
         "pk": 3,
-        "model": "team.Team",
+        "model": "question.Question",
         "fields": {
-            "name": "Jack Dorsey",
-            "college": "NYU",
-            "years_experience": 15, 
-            "quote": "As the creator of Twitter, I am also a strong advocate of open-source coding. Why not also pay for data?",
-            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/jackd.png?raw=true",
-            "image": "jackd.png"
+            "asked_by": "Christian Lodde",
+            "question_about": "When does Roula plan on releasing thier application to the public",
+            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "answered_by": "Roula Tech Support"
         }
     },
     {
         "pk": 4,
-        "model": "team.Team",
+        "model": "question.Question",
         "fields": {
-            "name": "Kevin Hart",
-            "college": "GSU",
-            "years_experience": 1, 
-            "quote": "As a famous comedian I stand by this organization, I am glad to be apart of it!",
-            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/kevin.png?raw=true",
-            "image": "kevin.png"
+            "asked_by": "Christian Lodde",
+            "question_about": "When does Roula plan on releasing thier application to the public",
+            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "answered_by": "Roula Tech Support"
         }
     },
     {
         "pk": 5,
-        "model": "team.Team",
+        "model": "question.Question",
         "fields": {
-            "name": "Bobby Lee",
-            "college": "UCLA",
-            "years_experience": 5, 
-            "quote": "As a famous comedian/podcast host, I stand by this organization fully. Our Podcast was one of the first to be featured",
-            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/bobby.png?raw=true",
-            "image": "bobby.png"
+            "asked_by": "Christian Lodde",
+            "question_about": "When does Roula plan on releasing thier application to the public",
+            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "answered_by": "Roula Tech Support"
         }
     },
     {
         "pk": 6,
-        "model": "team.Team",
+        "model": "question.Question",
         "fields": {
-            "name": "Susan Wojcicki",
-            "college": "Yale",
-            "years_experience": 25, 
-            "quote": "As the current CEO of YouTube, we are changing our stances and reaching out to the community we rely so much on upon.",
-            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/susan.png?raw=true",
-            "image": "susan.png"
+            "asked_by": "Christian Lodde",
+            "question_about": "When does Roula plan on releasing thier application to the public",
+            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "answered_by": "Roula Tech Support"
         }
     },
     {
         "pk": 7,
-        "model": "team.Team",
+        "model": "question.Question",
         "fields": {
-            "name": "Andy Jassy",
-            "college": "Princeton",
-            "years_experience": 14, 
-            "quote": "As The lead founder of AWS, I can't think of a better chance than to work with Roula's Team.",
-            "image_url": "https://github.com/nickl98/Roula_final_project/blob/main/media/susan.png?raw=true",
-            "image": "andrew.png"
+            "asked_by": "Christian Lodde",
+            "question_about": "When does Roula plan on releasing thier application to the public",
+            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "answered_by": "Roula Tech Support"
         }
     }
 ]

@@ -8,7 +8,7 @@ from .models import Question
 class QuestionAdmin(admin.ModelAdmin):
     list_display = (
         'asked_by',
-        'question',
+        'question_about',
         'answer',
         'answered_by',
         )

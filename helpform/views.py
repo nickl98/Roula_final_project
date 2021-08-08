@@ -13,5 +13,5 @@ def question(request):
     context = {
         'questions': questions,
     }
-    return render(request, 'questions/question.html', context)
+    return render(request, 'helpforms/helpform.html', context)
 
