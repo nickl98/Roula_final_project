@@ -1,7 +1,7 @@
 [
     {
         "pk": 1,
-        "model": "questions.Question",
+        "model": "helpform.Question",
         "fields": {
             "asked_by": "Christian Lodde",
             "question_about": "When does Roula plan on releasing thier application to the public",
@@ -11,7 +11,7 @@
     },
     {
         "pk": 2,
-        "model": "question.Question",
+        "model": "helpform.Question",
         "fields": {
             "asked_by": "Christian Lodde",
             "question_about": "When does Roula plan on releasing thier application to the public",
@@ -21,7 +21,7 @@
     },
     {
         "pk": 3,
-        "model": "question.Question",
+        "model": "helpform.Question",
         "fields": {
             "asked_by": "Christian Lodde",
             "question_about": "When does Roula plan on releasing thier application to the public",
@@ -31,7 +31,7 @@
     },
     {
         "pk": 4,
-        "model": "question.Question",
+        "model": "helpform.Question",
         "fields": {
             "asked_by": "Christian Lodde",
             "question_about": "When does Roula plan on releasing thier application to the public",
@@ -41,7 +41,7 @@
     },
     {
         "pk": 5,
-        "model": "question.Question",
+        "model": "helpform.Question",
         "fields": {
             "asked_by": "Christian Lodde",
             "question_about": "When does Roula plan on releasing thier application to the public",
@@ -51,7 +51,7 @@
     },
     {
         "pk": 6,
-        "model": "question.Question",
+        "model": "helpform.Question",
         "fields": {
             "asked_by": "Christian Lodde",
             "question_about": "When does Roula plan on releasing thier application to the public",
@@ -61,7 +61,7 @@
     },
     {
         "pk": 7,
-        "model": "question.Question",
+        "model": "helpform.Question",
         "fields": {
             "asked_by": "Christian Lodde",
             "question_about": "When does Roula plan on releasing thier application to the public",
