@@ -15,11 +15,17 @@
     <div class="container-fluid map-container2">
         <div class="row">
             <div class="col text-center mt-3">
-                <hr class="w-100 hr-color mb-1">
-                <h2 class="logo-font">The Devloper Team</h2>
-                <hr class="w-100 hr-color mb-1">
+               <div class="container-fluid map-top-header-bgcolor">
+                  <div class="row">
+                     <div class="col-md-8 col-md-12 text-center">
+                        <h1 class="display-4 map-top-header-color logo-font text-center">
+                           Our Devlopers and Founders
+                        </h1>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
+         </div>
         <div class="row">
         <!---for loop of Devlopers profile-->   
         {% for team in teams %}
@@ -28,7 +34,7 @@
             <div style="width:100%; text-align:center" class="h-100 card2 border-0">
                 {% if team.image %}
                 <a href="{{ team.image.url }}" target="_blank">
-                    <img class="card-img-top" src="{{ team.image.url }}" alt="{{ team.name }}">
+                    <img class="rounded-circle" src="{{ team.image.url }}" alt="{{ team.name }}">
                 </a>
                 
                 {% else %}

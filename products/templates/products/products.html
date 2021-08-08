@@ -10,15 +10,26 @@
 {% block content %}
 <div id="product-background" class="container-fluid">
    <div class="row">
+      <div class="col text-center mt-3">
+         <div class="container-fluid map-top-header-bgcolor">
+            <div class="row">
+               <div class="col-md-8 col-md-12 text-center">
+                  <h1 class="display-4 map-top-header-color logo-font text-center">
+                     Merchandise
+                  </h1>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row">
       <div id="product-bages" class="col text-center mt-3">
-         <hr class="w-100 hr-color mb-2">
-         <h2 class="logo-font">Merchandise</h2>
+         
          {% for c in current_categories %}
          <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
          <span class="p-2 mt-2 badge badge-gray text-black2 rounded-0 border border-dark">{{ c.friendly_name }}</span>
          </a>
          {% endfor %}
-         <hr class="w-100 hr-color mb-2">
       </div>
    </div>
    <div id="sorting_background" class="row">
