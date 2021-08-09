@@ -3,19 +3,19 @@
         "pk": 1,
         "model": "helpform.Question",
         "fields": {
-            "asked_by": "Christian Lodde",
-            "question_about": "When does Roula plan on releasing thier application to the public",
-            "answer": "At our current rate we expect it to be relased around mid 2022", 
-            "answered_by": "Roula Tech Support"
+            "asked_by": "Buster Mack",
+            "question_about": "When does Roula plan on releasing its application to the public?",
+            "answer": "At our current rate, we expect it to be released around Q3 2022!", 
+            "answered_by": "Roula Devlopment Team"
         }
     },
     {
         "pk": 2,
         "model": "helpform.Question",
         "fields": {
-            "asked_by": "Christian Lodde",
-            "question_about": "When does Roula plan on releasing thier application to the public",
-            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "asked_by": "Jarod Randall",
+            "question_about": "How much will the application cost when it goes public?",
+            "answer": "The application will be free! Right now we just are trying to collect funding so that all the features will be working perfectly!", 
             "answered_by": "Roula Tech Support"
         }
     },
@@ -23,19 +23,19 @@
         "pk": 3,
         "model": "helpform.Question",
         "fields": {
-            "asked_by": "Christian Lodde",
-            "question_about": "When does Roula plan on releasing thier application to the public",
-            "answer": "At our current rate we expect it to be relased around mid 2022", 
-            "answered_by": "Roula Tech Support"
+            "asked_by": "Kaylan Mejia",
+            "question_about": "What are some features that early access users can expect?",
+            "answer": "There are many ideas still in the air about this. We are thinking of either a special discount code or reward multiplier. This means that you would be receiving more rewards than regular users for a time being!", 
+            "answered_by": "Roula Devlopment Team"
         }
     },
     {
         "pk": 4,
         "model": "helpform.Question",
         "fields": {
-            "asked_by": "Christian Lodde",
-            "question_about": "When does Roula plan on releasing thier application to the public",
-            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "asked_by": "Lewie Blair",
+            "question_about": "Why should we take part in this movement?",
+            "answer": "We are not trying to force you to download this app, however which apps on the app store pay you for your raw data?", 
             "answered_by": "Roula Tech Support"
         }
     },
@@ -43,19 +43,19 @@
         "pk": 5,
         "model": "helpform.Question",
         "fields": {
-            "asked_by": "Christian Lodde",
-            "question_about": "When does Roula plan on releasing thier application to the public",
-            "answer": "At our current rate we expect it to be relased around mid 2022", 
-            "answered_by": "Roula Tech Support"
+            "asked_by": "Lance Burch",
+            "question_about": "Where does Roula Merchendice get made?",
+            "answer": "In our serach of manufactuers we came accross a small buisnness named t-shirts & more. They are a startup from Oregon and have some contracts already with Nike!", 
+            "answered_by": "Roula Devlopment Team"
         }
     },
     {
         "pk": 6,
         "model": "helpform.Question",
         "fields": {
-            "asked_by": "Christian Lodde",
-            "question_about": "When does Roula plan on releasing thier application to the public",
-            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "asked_by": "Christopher Mclaughlin",
+            "question_about": "When does Roula plan on releasing thier advertisments to the public",
+            "answer": "We are currently drafting and creating advertisements around the clock. In a few months, the ads will be flooding the internet!", 
             "answered_by": "Roula Tech Support"
         }
     },
@@ -63,9 +63,9 @@
         "pk": 7,
         "model": "helpform.Question",
         "fields": {
-            "asked_by": "Christian Lodde",
-            "question_about": "When does Roula plan on releasing thier application to the public",
-            "answer": "At our current rate we expect it to be relased around mid 2022", 
+            "asked_by": "Sufyaan O'Ryan",
+            "question_about": "Will users of Roula have their online store account?",
+            "answer": "Each profile will have an independent profile page and the user can choose to be selling, or earning. Depending on the choice the UI will change depending on which option is chosen.", 
             "answered_by": "Roula Tech Support"
         }
     }
