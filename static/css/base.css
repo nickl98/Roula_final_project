@@ -59,7 +59,7 @@ body:-webkit-scrollbar {
 .delivery-banner {
 	background-color: #5cdb95;
 	border-color: #edf5e1;
-	padding: 20px;
+	padding: 25px;
 	box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 	background: linear-gradient(-45deg, #5cdb95, #8ee4af, #edf5e1, #5db27f);
 	background-size: 400% 400%;
@@ -243,6 +243,10 @@ body:-webkit-scrollbar {
 
 #dev-card {
 	margin-bottom: 15px;
+}
+
+#header-padding-top {
+	margin-bottom: 35px;
 }
 
 
@@ -898,21 +902,6 @@ ul.social-network li {
 	background-color: rgba(255,255,255,0.8);
 	z-index: -1;
 	padding-bottom: 150px;
-	/* background: linear-gradient(-45deg, #42629a, #a9bcdd, #5589e2, #505050);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	} */
 }
 
 
