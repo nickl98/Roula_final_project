@@ -294,7 +294,6 @@ body:-webkit-scrollbar {
 }
 
 #dev-btn {
-	border-radius: 1;
 	border-color: black;
 }
 
@@ -817,7 +816,6 @@ ul.social-network li {
 
 .map-container {
 	z-index: -1;
-	size: 500px;
 }
 
 #storerocket-widget {
@@ -828,7 +826,6 @@ ul.social-network li {
 
 .map-container2 {
 	z-index: 99999;
-	size: 900px;
 	padding-bottom: 150px;
 	background-color: rgba(255,255,255,0.8);
 	overflow-x: auto;
@@ -1010,12 +1007,7 @@ a.category-badge>span.badge:hover {
 }
 
 
-/* Portrait and Landscape */
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {}
-
-
-/* Portrait */
+/* Portrait IPhone x*/
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 	#header-1 {
