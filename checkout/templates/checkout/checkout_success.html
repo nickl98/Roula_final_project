@@ -11,17 +11,29 @@
 </div>
 {% endblock %}
 {% block content %}
-<div id="product-background" class="container">
-   <div class="row">
-      <div class="col">
-         <hr>
-         <h2 class="logo-font mb-4">Thank You</h2>
-         <hr>
-         <p class="text-black3">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
+
+      <div class="container-fluid map-container2 H-100 mb-2">
+         <div class="row header-padding-top">
+            <div class="col text-center mt-3">
+               <div class="container-fluid map-top-header-bgcolor">
+                  <div class="row">
+                     <div class="col-md-8 col-md-12 text-center">
+                        <h1 class="display-4 map-top-header-color logo-font text-center">
+                           Checkout
+                        </h1>
+                        <br>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
       </div>
-   </div>
+        
+         
+      
    <div class="row">
       <div class="col-12 col-lg-7">
+         <p class="text-black3">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
          <div class="order-confirmation-wrapper p-2 border">
             <div class="row">
                <div class="col">
