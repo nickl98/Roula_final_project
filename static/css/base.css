@@ -310,8 +310,9 @@ body:-webkit-scrollbar {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
 	border: 4px solid;
-  	padding: 10px;
   	box-shadow: 5px 10px black;
 	  background: linear-gradient(-45deg, #42629a, #7c96c2, #050505, #6787be);
 	  background-size: 400% 400%;
@@ -823,24 +824,9 @@ ul.social-network li {
 	z-index: 99999;
 	size: 900px;
 	padding-bottom: 150px;
-	background-color: gray;
+	background-color: rgba(255,255,255,0.8);
 	overflow-x: auto;
-	background: linear-gradient(-45deg, #42629a, #a9bcdd, #5589e2, #505050);
 
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 .container:-webkit-scrollbar {
@@ -909,10 +895,10 @@ ul.social-network li {
 }
 
 #product-background {
-	background-color: #F4F4F4;
+	background-color: rgba(255,255,255,0.8);
 	z-index: -1;
 	padding-bottom: 150px;
-	background: linear-gradient(-45deg, #42629a, #a9bcdd, #5589e2, #505050);
+	/* background: linear-gradient(-45deg, #42629a, #a9bcdd, #5589e2, #505050);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -926,7 +912,7 @@ ul.social-network li {
 	}
 	100% {
 		background-position: 0% 50%;
-	}
+	} */
 }
 
 

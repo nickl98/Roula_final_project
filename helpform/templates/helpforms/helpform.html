@@ -35,12 +35,13 @@
                         <div class="card trading-background">
                             <div class="card-header shadow-sm border-0">
                                 <h2 class="mb-0">
-                                    <button type="button" data-toggle="collapse" data-target="#collapseOne{{loop.index}}" aria-expanded="true" aria-controls="collapseOne" class="btn btn-link text-dark font-weight-bold text-uppercase">
-                                     Question: {{ question.question }} <i class="fas fa-caret-down"></i>
+                                    <button type="button" data-toggle="collapse" data-target="#collapseOne-{{ forloop.counter }}"
+                                     aria-expanded="true" aria-controls="collapseOne" class="btn btn-link text-dark font-weight-bold text-uppercase">
+                                     <strong>Question:</strong> {{ question.question_about }} <i class="fas fa-caret-down"></i>
                                     </button>
                                 </h2>
                             </div>
-                            <div id="collapseOne{{loop.index}}" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
+                            <div id="collapseOne-{{ forloop.counter }}" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
                                 <div class="card-body p-5">
                                     <strong>Asked by: {{ question.asked_by }}</strong>
                                     <p>{{ question.question_about }}</p>
