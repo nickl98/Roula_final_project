@@ -4,7 +4,8 @@
 }
 
 #profile-update-form .form-control {
-    color: #000;
+    border-radius: 1;
+	border-color: black;
 }
 
 #profile-update-form input::placeholder {
