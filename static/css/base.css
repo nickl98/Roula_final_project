@@ -853,7 +853,7 @@ ul.social-network li {
 
 /* Content Body */
 
-#content-body {
+.content-body {
 	padding: 20px;
 }
 
