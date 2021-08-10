@@ -76,7 +76,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -123,7 +123,7 @@ WSGI_APPLICATION = 'roula_final.wsgi.application'
 
 if "DATABASE_URL" in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))    
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))  
     }
 else:
     print("Postgres URL not found, using sqlite instead")
